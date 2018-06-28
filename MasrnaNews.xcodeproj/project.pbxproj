@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2497B30720E38CE80060A7FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2497B30620E38CE80060A7FA /* AppDelegate.swift */; };
+		2497B30C20E38CE80060A7FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2497B30A20E38CE80060A7FA /* Main.storyboard */; };
+		2497B30F20E38CE80060A7FA /* MasrnaNews.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2497B30D20E38CE80060A7FA /* MasrnaNews.xcdatamodeld */; };
+		2497B31120E38CE80060A7FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2497B31020E38CE80060A7FA /* Assets.xcassets */; };
+		2497B31420E38CE80060A7FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2497B31220E38CE80060A7FA /* LaunchScreen.storyboard */; };
+		2497B31D20E38D240060A7FA /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2497B31C20E38D240060A7FA /* Theme.xcassets */; };
+		2497B32320E38DB10060A7FA /* CustomGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2497B32020E38DB10060A7FA /* CustomGradient.swift */; };
+		2497B32420E38DB10060A7FA /* CustomEditText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2497B32120E38DB10060A7FA /* CustomEditText.swift */; };
+		2497B32520E38DB10060A7FA /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2497B32220E38DB10060A7FA /* CustomView.swift */; };
+		2497B32820E38DD00060A7FA /* CoreDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2497B32720E38DD00060A7FA /* CoreDataHandler.swift */; };
+		2497B32C20E38DF10060A7FA /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2497B32A20E38DF00060A7FA /* Urls.swift */; };
+		2497B32D20E38DF10060A7FA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2497B32B20E38DF00060A7FA /* Constants.swift */; };
+		24DC649C20E4DD6100E4C14C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC649B20E4DD6100E4C14C /* HomeVC.swift */; };
+		24DC649E20E4DDED00E4C14C /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC649D20E4DDED00E4C14C /* News.swift */; };
+		24DC64A020E4DF5300E4C14C /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC649F20E4DF5300E4C14C /* NewsCell.swift */; };
+		24DC64A220E4E9EF00E4C14C /* NewsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC64A120E4E9EF00E4C14C /* NewsDetailVC.swift */; };
+		24DC64A420E5006900E4C14C /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC64A320E5006900E4C14C /* WeatherVC.swift */; };
+		24DC64A620E5044F00E4C14C /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC64A520E5044F00E4C14C /* Weather.swift */; };
+		E42194AFCA8B09243B2D6831 /* Pods_MasrnaNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFAAB9101B344061D78CB4F /* Pods_MasrnaNews.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14A4CFBE0C47D571BE80E399 /* Pods-MasrnaNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasrnaNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-MasrnaNews/Pods-MasrnaNews.release.xcconfig"; sourceTree = "<group>"; };
+		2497B30320E38CE80060A7FA /* MasrnaNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasrnaNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2497B30620E38CE80060A7FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2497B30B20E38CE80060A7FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2497B30E20E38CE80060A7FA /* MasrnaNews.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MasrnaNews.xcdatamodel; sourceTree = "<group>"; };
+		2497B31020E38CE80060A7FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2497B31320E38CE80060A7FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2497B31520E38CE80060A7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2497B31C20E38D240060A7FA /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
+		2497B32020E38DB10060A7FA /* CustomGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomGradient.swift; path = "../../../Blood Sugar/Blood Sugar/Custom View/CustomGradient.swift"; sourceTree = "<group>"; };
+		2497B32120E38DB10060A7FA /* CustomEditText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomEditText.swift; path = "../../../Blood Sugar/Blood Sugar/Custom View/CustomEditText.swift"; sourceTree = "<group>"; };
+		2497B32220E38DB10060A7FA /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomView.swift; path = "../../../Blood Sugar/Blood Sugar/Custom View/CustomView.swift"; sourceTree = "<group>"; };
+		2497B32720E38DD00060A7FA /* CoreDataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataHandler.swift; path = ../../../samaKitchen/samaKitchen/LocalDB/CoreDataHandler.swift; sourceTree = "<group>"; };
+		2497B32A20E38DF00060A7FA /* Urls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		2497B32B20E38DF00060A7FA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		24DC649B20E4DD6100E4C14C /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		24DC649D20E4DDED00E4C14C /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		24DC649F20E4DF5300E4C14C /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		24DC64A120E4E9EF00E4C14C /* NewsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailVC.swift; sourceTree = "<group>"; };
+		24DC64A320E5006900E4C14C /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
+		24DC64A520E5044F00E4C14C /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		BBFAAB9101B344061D78CB4F /* Pods_MasrnaNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MasrnaNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85D7D97B95920C257D415C9 /* Pods-MasrnaNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasrnaNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasrnaNews/Pods-MasrnaNews.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2497B30020E38CE80060A7FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42194AFCA8B09243B2D6831 /* Pods_MasrnaNews.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2497B2FA20E38CE80060A7FA = {
+			isa = PBXGroup;
+			children = (
+				2497B30520E38CE80060A7FA /* MasrnaNews */,
+				2497B30420E38CE80060A7FA /* Products */,
+				4CE2F240780588A471EF5B11 /* Pods */,
+				B12ED03F091DC311D64435B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2497B30420E38CE80060A7FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2497B30320E38CE80060A7FA /* MasrnaNews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2497B30520E38CE80060A7FA /* MasrnaNews */ = {
+			isa = PBXGroup;
+			children = (
+				2497B31B20E38CF80060A7FA /* Supported Files */,
+				2497B31F20E38D7E0060A7FA /* Custom Views */,
+				2497B32620E38DBF0060A7FA /* Local DB */,
+				2497B32920E38DE30060A7FA /* Config */,
+				2497B32E20E38DFE0060A7FA /* Model */,
+				2497B32F20E38E1A0060A7FA /* Cell */,
+				2497B31E20E38D5D0060A7FA /* Controllers */,
+				2497B30A20E38CE80060A7FA /* Main.storyboard */,
+				2497B31520E38CE80060A7FA /* Info.plist */,
+			);
+			path = MasrnaNews;
+			sourceTree = "<group>";
+		};
+		2497B31B20E38CF80060A7FA /* Supported Files */ = {
+			isa = PBXGroup;
+			children = (
+				2497B30620E38CE80060A7FA /* AppDelegate.swift */,
+				2497B31020E38CE80060A7FA /* Assets.xcassets */,
+				2497B31220E38CE80060A7FA /* LaunchScreen.storyboard */,
+				2497B31C20E38D240060A7FA /* Theme.xcassets */,
+			);
+			path = "Supported Files";
+			sourceTree = "<group>";
+		};
+		2497B31E20E38D5D0060A7FA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				24DC649B20E4DD6100E4C14C /* HomeVC.swift */,
+				24DC64A120E4E9EF00E4C14C /* NewsDetailVC.swift */,
+				24DC64A320E5006900E4C14C /* WeatherVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2497B31F20E38D7E0060A7FA /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				2497B32120E38DB10060A7FA /* CustomEditText.swift */,
+				2497B32020E38DB10060A7FA /* CustomGradient.swift */,
+				2497B32220E38DB10060A7FA /* CustomView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		2497B32620E38DBF0060A7FA /* Local DB */ = {
+			isa = PBXGroup;
+			children = (
+				2497B30D20E38CE80060A7FA /* MasrnaNews.xcdatamodeld */,
+				2497B32720E38DD00060A7FA /* CoreDataHandler.swift */,
+			);
+			path = "Local DB";
+			sourceTree = "<group>";
+		};
+		2497B32920E38DE30060A7FA /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				2497B32A20E38DF00060A7FA /* Urls.swift */,
+				2497B32B20E38DF00060A7FA /* Constants.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		2497B32E20E38DFE0060A7FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24DC649D20E4DDED00E4C14C /* News.swift */,
+				24DC64A520E5044F00E4C14C /* Weather.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2497B32F20E38E1A0060A7FA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				24DC649F20E4DF5300E4C14C /* NewsCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4CE2F240780588A471EF5B11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C85D7D97B95920C257D415C9 /* Pods-MasrnaNews.debug.xcconfig */,
+				14A4CFBE0C47D571BE80E399 /* Pods-MasrnaNews.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B12ED03F091DC311D64435B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBFAAB9101B344061D78CB4F /* Pods_MasrnaNews.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2497B30220E38CE80060A7FA /* MasrnaNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2497B31820E38CE80060A7FA /* Build configuration list for PBXNativeTarget "MasrnaNews" */;
+			buildPhases = (
+				A11AA046E31C3EE58A392071 /* [CP] Check Pods Manifest.lock */,
+				2497B2FF20E38CE80060A7FA /* Sources */,
+				2497B30020E38CE80060A7FA /* Frameworks */,
+				2497B30120E38CE80060A7FA /* Resources */,
+				92AC7BBC84F2326B8E9E87B3 /* [CP] Embed Pods Frameworks */,
+				183CB071B9B7B15E75CDDAB8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MasrnaNews;
+			productName = MasrnaNews;
+			productReference = 2497B30320E38CE80060A7FA /* MasrnaNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2497B2FB20E38CE80060A7FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Y2M;
+				TargetAttributes = {
+					2497B30220E38CE80060A7FA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2497B2FE20E38CE80060A7FA /* Build configuration list for PBXProject "MasrnaNews" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2497B2FA20E38CE80060A7FA;
+			productRefGroup = 2497B30420E38CE80060A7FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2497B30220E38CE80060A7FA /* MasrnaNews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2497B30120E38CE80060A7FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2497B31420E38CE80060A7FA /* LaunchScreen.storyboard in Resources */,
+				2497B31D20E38D240060A7FA /* Theme.xcassets in Resources */,
+				2497B31120E38CE80060A7FA /* Assets.xcassets in Resources */,
+				2497B30C20E38CE80060A7FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		183CB071B9B7B15E75CDDAB8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasrnaNews/Pods-MasrnaNews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92AC7BBC84F2326B8E9E87B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MasrnaNews/Pods-MasrnaNews-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasrnaNews/Pods-MasrnaNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A11AA046E31C3EE58A392071 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MasrnaNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2497B2FF20E38CE80060A7FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2497B32820E38DD00060A7FA /* CoreDataHandler.swift in Sources */,
+				24DC64A420E5006900E4C14C /* WeatherVC.swift in Sources */,
+				2497B32420E38DB10060A7FA /* CustomEditText.swift in Sources */,
+				2497B32320E38DB10060A7FA /* CustomGradient.swift in Sources */,
+				24DC649C20E4DD6100E4C14C /* HomeVC.swift in Sources */,
+				2497B32C20E38DF10060A7FA /* Urls.swift in Sources */,
+				24DC64A620E5044F00E4C14C /* Weather.swift in Sources */,
+				2497B32520E38DB10060A7FA /* CustomView.swift in Sources */,
+				2497B30720E38CE80060A7FA /* AppDelegate.swift in Sources */,
+				2497B30F20E38CE80060A7FA /* MasrnaNews.xcdatamodeld in Sources */,
+				24DC649E20E4DDED00E4C14C /* News.swift in Sources */,
+				2497B32D20E38DF10060A7FA /* Constants.swift in Sources */,
+				24DC64A220E4E9EF00E4C14C /* NewsDetailVC.swift in Sources */,
+				24DC64A020E4DF5300E4C14C /* NewsCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2497B30A20E38CE80060A7FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2497B30B20E38CE80060A7FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2497B31220E38CE80060A7FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2497B31320E38CE80060A7FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2497B31620E38CE80060A7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2497B31720E38CE80060A7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2497B31920E38CE80060A7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C85D7D97B95920C257D415C9 /* Pods-MasrnaNews.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HFDNVS3YP;
+				INFOPLIST_FILE = MasrnaNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.y2m.MasrnaNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2497B31A20E38CE80060A7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14A4CFBE0C47D571BE80E399 /* Pods-MasrnaNews.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HFDNVS3YP;
+				INFOPLIST_FILE = MasrnaNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.y2m.MasrnaNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2497B2FE20E38CE80060A7FA /* Build configuration list for PBXProject "MasrnaNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2497B31620E38CE80060A7FA /* Debug */,
+				2497B31720E38CE80060A7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2497B31820E38CE80060A7FA /* Build configuration list for PBXNativeTarget "MasrnaNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2497B31920E38CE80060A7FA /* Debug */,
+				2497B31A20E38CE80060A7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2497B30D20E38CE80060A7FA /* MasrnaNews.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2497B30E20E38CE80060A7FA /* MasrnaNews.xcdatamodel */,
+			);
+			currentVersion = 2497B30E20E38CE80060A7FA /* MasrnaNews.xcdatamodel */;
+			path = MasrnaNews.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2497B2FB20E38CE80060A7FA /* Project object */;
+}
