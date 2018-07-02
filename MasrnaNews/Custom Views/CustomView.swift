@@ -58,7 +58,7 @@ extension UIColor{
     
     func getCustomBlueColor() -> UIColor{
         
-    return UIColor(red:0.043, green:0.576 ,blue:0.588 , alpha:1.00)
+        return UIColor(red:0.043, green:0.576 ,blue:0.588 , alpha:1.00)
         
     }
 }
@@ -66,7 +66,10 @@ extension UIColor{
 
 extension UIApplication {
     var statusBarView: UIView? {
-        return value(forKey: "statusBar") as? UIView
+        if responds(to: Selector(("statusBar"))) {
+            return value(forKey: "statusBar") as? UIView
+        }
+        return nil
     }
 }
 
@@ -80,8 +83,8 @@ extension CALayer {
         case .top:
             border.frame = CGRect(x: 0, y: 0, width: frame.width, height: thickness)
         case .bottom:
-//            border.frame = CGRect(x: 0, y: frame.height - thickness, width: frame.width, height: thickness)
-             border.frame = CGRect(x: 0, y: frame.height - thickness, width: personalInfoView.frame.width, height: thickness)
+            //            border.frame = CGRect(x: 0, y: frame.height - thickness, width: frame.width, height: thickness)
+            border.frame = CGRect(x: 0, y: frame.height - thickness, width: personalInfoView.frame.width, height: thickness)
         case .left:
             border.frame = CGRect(x: 0, y: 0, width: thickness, height: frame.height)
         case .right:
@@ -95,5 +98,6 @@ extension CALayer {
         addSublayer(border)
     }
 }
+
 
 
